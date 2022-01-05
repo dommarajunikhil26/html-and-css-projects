@@ -5,8 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Island Moments">
+    <link rel="stylesheet" href="survey form.css">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Form Header -->
+        <div class="form-header">
+            <h1>College Survey Form</h1>
+            <h4>Please fill out this form.</h4>
+        </div>
+
+        <!-- Form -->
+        <form action="" class="form">
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" id="name" class="form-control" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email" id="label-email">Email</label>
+                <input type="text" id="email" class="form-control" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Age -->
+            <div class="form-group">
+                <label for="age">Age <span>(Optional)</span></label>
+                <input type="number" name="age" id="age" class="form-control" placeholder="Age" min="10" max="90">
+            </div>
+
+            <!-- dropdown -->
+            <div class="form-group">
+               <p>Which major do you intent to take?</p>
+               <select id="dropdown" class="form-control" required>
+                   <option value="cse">Computer Science</option>
+                   <option value="cee">Computer Engineering</option>
+                   <option value="ece">Electronics</option>
+                   <option value="eee">Electrical</option>
+                   <option value="mec">Mechanical</option>
+                   <option value="civil">Civil</option>
+               </select> 
+            </div>
+
+            <!-- Radio buttons -->
+            <div class="form-group">
+                <p>Where do you intend to stay?</p>
+                <label>
+                    <input type="radio" name="radio" class="radio-group" value="suite" checked>Suite
+                </label>
+                <label>
+                    <input type="radio" name="radio" class="radio-group" value="appartment">Appartment
+                </label>
+                <label>
+                    <input type="radio" name="radio" class="radio-group" value="outside-campus">Outside Campus
+                </label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-group">
+                <p>Select food section</p>
+                <label>
+                    <input type="checkbox" name="food" value="check-veg" class="checkbox-group">Vegetarian
+                </label>
+                <label>
+                    <input type="checkbox" name="food" value="check-non-veg" class="checkbox-group">Non-vegetarian
+                </label>
+                <label>
+                    <input type="checkbox" name="food" value="check-spec" class="checkbox-group">Special
+                </label>
+                <label>
+                    <input type="checkbox" name="food" value="check-park" class="checkbox-group">Food Park
+                </label>
+            </div>
+
+            <!-- text area -->
+            <div class="form-group">
+                <p class="textarea-header">Anything you would like to say?</p>
+                <textarea name="textarea" id="textarea"class="form-control" placeholder="Write down here.."></textarea>
+            </div>
+
+            <!-- submit button -->
+            <div class="form-group button-group">
+                <button class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

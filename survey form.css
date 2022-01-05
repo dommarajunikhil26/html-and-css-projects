@@ -1,0 +1,150 @@
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+
+/* form header */
+
+.form-header h1{
+    text-align: center;
+    font-weight: 800;
+}
+.form-header h4{
+    text-align: center;
+    font-family: 'Island Moments';
+    font-size: 25px;
+}
+/* form */
+form{
+    max-width: 50%;
+    margin: 0 auto 0 auto;
+    border: 2px solid black;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    border-radius: 10px;
+}
+.form-group {
+    margin: 0 auto 1rem auto;
+    padding: 0.25rem;
+    border: 2px solid pink;
+}
+.form-group p{
+    padding: 0rem 0rem 0rem 6rem;
+    border: 2px solid blue;
+}
+.form-control{
+    margin: 0rem 0rem 0rem 5.9rem;
+    border: 2px solid yellow;
+
+}
+label>span{
+    color: rgb(121, 115, 115);
+}
+#name,
+#email,
+#age{
+    width: 40%;
+    height: 1.5rem;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin: 0.8rem 0.8rem 0.8rem 1rem;
+    padding: 0rem 0rem 0rem 5rem;
+    border: 2px solid green;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+}
+.button-group button{
+    background-color: khaki;
+    border-radius: 8px;
+    border: 2px solid;
+    padding: 0.125rem 5rem 0.125rem 5rem;
+    cursor: pointer;
+}
+.button-group button:hover{
+    background-color: rgb(137, 247, 137);
+    color: black;
+}
+textarea{
+    width: 60%;
+    height: 5rem;
+}
+/* Media query */
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+    .button-group button{
+        background-color: khaki;
+        padding: 0.125rem 2rem 0.125rem 2rem;
+    }
+    label{
+        padding: 0rem 0rem 0rem 4.8rem;
+    }
+    .form-group p{
+        padding: 0rem 0rem 0rem 4rem;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 750px){
+    .form-group p{
+        padding: 0rem 0rem 0rem 3rem;
+    }
+    .form-control{
+        margin: 0rem 0rem 0rem 3rem;
+    
+    }
+    .button-group button{
+        background-color: khaki;
+        padding: 0.125rem 2rem 0.125rem 2rem;
+    }
+    label{
+        display: flex;
+        align-items: center;
+        padding: 0rem 0rem 0rem 2rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    label{
+        display: flex;
+        align-items: center;
+        padding: 0rem 0rem 0rem 2.7rem;
+    }
+    #name,
+    #email,
+    #age{
+    width: 60%;
+    height: 1rem;
+}
+.button-group button{
+    background-color: khaki;
+    padding: 0.125rem 2rem 0.125rem 2rem;
+}
+}
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    label{
+        display: flex;
+        align-items: center;
+        padding: 0rem 0rem 0rem 2.7rem;
+    }
+    #name,
+    #email,
+    #age{
+    width: 60%;
+    height: 1rem;
+}
+.button-group button{
+    background-color: khaki;
+    padding: 0.125rem 2rem 0.125rem 2rem;
+}
+.form-group p{
+    padding: 0rem 0rem 0rem 2rem;
+}
+.form-control{
+    margin: 0rem 0rem 0rem 2rem;
+    border: 2px solid yellow;
+
+}
+}
