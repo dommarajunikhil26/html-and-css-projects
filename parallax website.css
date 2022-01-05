@@ -1,0 +1,123 @@
+/* Global */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Image 1 */
+.img-1{
+    background-image: url('https://wallpaperaccess.com/full/3068226.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-1-text{
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+.border{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: rgb(29, 30, 46);
+    border-radius: 5px;
+}
+
+/* content-1 */
+.content-1{
+    text-align: center;
+}
+.content-1>h2{
+    font-size: 2rem;
+}
+.content-1>p{
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+    font-size: 20px;
+    color: #333;
+}
+/* Image 2 */
+.img-2{
+    background-image: url('https://imagenes.yogonet.com/data/imagenes/2021/09/20/39270/md_1633371843-majestic-pride-casino-goa-india.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Content-2 */
+.content-2{
+    text-align: center;
+    background-color: rgb(1, 1, 22);
+    padding-bottom: 1.5rem;
+}
+.content-2>h2{
+    padding-top: 1.4rem;
+    color: wheat;
+    font-size: 2rem;
+    margin: 0;
+}
+.content-2>p{
+    color: wheat;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+    font-size: 20px;
+}
+/* Image 3 */
+.img-3{
+    background-image: url('https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1065727913_20190822150731.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* content 3 */
+.content-3{
+    text-align: center;
+}
+.content-3>h2{
+    font-size: 2rem;
+}
+.content-3>p{
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+    font-size: 20px;
+    color: #333;
+}
+/* Image 4 */
+.img-4{
+    background-image: url('https://wanderingboyphotographyhome.files.wordpress.com/2019/05/img-5010-2.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Content-4 */
+.content-4{
+    text-align: center;
+    background-color: rgb(1, 1, 22);
+    padding-bottom: 1.5rem;
+}
+.content-4>h2{
+    padding-top: 1.4rem;
+    color: wheat;
+    font-size: 2rem;
+    margin: 0;
+}
+.content-4>p{
+    color: wheat;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+    font-size: 20px;
+}
+
