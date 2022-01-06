@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+}
+/* Header */
+header{
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.9;
+    margin: 0;
+}
+.header-container{
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+}
+.header-container>h1{
+    font-size: 2rem;
+    color: white;
+}
+.header-container>p{
+    font-size: 1rem;
+    color: white;
+}
+.header-container .header-button a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+/* section 1 */
+.section-1{
+    color: black;
+    text-align: center;
+    background-color: #eee;
+}
+.section-1>h2{
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: 1.5rem;
+}
+.section-1 .section-1-p{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.section-1 .section-1-p p{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+
+/* section 2 */
+.section-2{
+    background-color: rgb(2, 2, 19);
+}
+.section-2 ul{
+    list-style-type: none;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 0;
+    grid-column-gap: 2rem;
+    padding-top: 2.5rem;
+    color: wheat;
+
+}
+.section-2 .card-img{
+    display: flex;
+    justify-content: center;
+}
+#img-1,
+#img-2,
+#img-3{
+    width: 80%;
+    height: auto;
+}
+#img-3{
+    width: 54%;
+}
+.section-2 .card-content h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+} 
+.section-2 .card-content p{
+    text-align: center;
+    padding: 0rem 0.85rem 0rem 0.85rem;
+    font-size: 1.3rem;
+}
+
+/* section3 */
+.section-3{
+    background-color: #eee;
+    text-align: center;
+    padding: 2rem 0;
+}
+.section-3 h3{
+    margin: 0;
+    font-size: 1.7rem;
+}
+.section-3 p{
+    font-size: 1.25rem;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+    line-height: 1.5;
+}
+
+/* section 4 */
+.section-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.section-4-left{
+    background-color: skyblue;
+}
+.section-4-left h3{
+    font-size: 1.7rem;
+}
+.section-4-left p{
+    font-size: 1.25rem;
+    margin-inline-start: 5rem;
+    margin-inline-end: 5rem;
+}
+.section-4-right{
+    background-color: #333;
+    color: #eee;
+}
+.section-4-right h3{
+    font-size: 1.7rem;
+}
+.section-4-right p{
+    font-size: 1.25rem;
+    margin-inline-start: 5rem;
+    margin-inline-end: 5rem;
+}
+
+/* media queries */
+@media only screen and (min-width: 200px) and (max-width: 650px){
+    /* header */
+    .header-container{
+        margin-inline-start: 1rem;
+        margin-inline-end: 1rem;
+    }
+
+    /* section 1 */
+    .section-1 .section-1-p{
+        display: block;
+    }
+    .section-1-p p:nth-child(2) {
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+    }
+
+    /* section 2 */
+    .section-2 ul{
+        display: block;
+    }
+    #img-1,
+    #img-2{
+    width: 70%;
+    height: auto;
+    }
+    #img-3{
+        width: 60%;
+    }
+    .section-2 li{
+        padding: 1.3rem 0;
+        border-bottom: 2px solid wheat;
+    }
+
+    /* section 4 */
+    .section-4{
+        display: block;
+    }
+    .section-4-left{
+        padding-top: 1rem;
+    }
+    .section-4-left h3{
+        margin-top: 0;
+    }
+    .section-4-left .email-id{
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+    .section-4-right{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .section-4-right h3{
+        margin-top: 0;
+    }
+    .section-4-right p{
+        margin-bottom: 0;
+    } 
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+}
