@@ -208,7 +208,6 @@ footer li a:hover{
 
 .speaker-header-2{
     background: linear-gradient(to right, lightgreen, lightyellow);
-    /* background-color: rgb(99, 180, 99); */
     padding: 20px;
     text-align: center;
 }
@@ -284,3 +283,73 @@ footer li a:hover{
 }
 /* ------------------speakers page ending------------- */
 
+/* ---------------------schedule page----------------- */
+
+/* --------------------------------------------------- */
+
+
+.schedule-section-1{
+    background: linear-gradient(to right, lightgreen, lightyellow);
+    text-align: center;
+    padding: 25px 20px;
+}
+.schedule-section-1 h1{
+    margin: 0;
+    color: var(--blue-clr);
+    font-size: 25px;
+}
+.schedule-section-1 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-inline-start: 7rem;
+    margin-inline-end: 7rem;
+    color: var(--white-shade);
+}
+.schedule-section-2{
+    padding: 50px 0px 40px 0px;
+}
+.schedule-table-container{
+    width: 960px;
+    margin: 0px auto;
+}
+.schedule-table-container table{
+    margin-bottom: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead{
+    line-height: 44px;
+}
+thead th {
+    color: #648880;
+    font-size: 24px;
+}
+tr{
+    vertical-align: baseline;
+}
+th{
+    text-align: right;
+    padding-right: 30px;
+    width: 20%;
+    color: #a9b2b9;
+}
+td{
+    padding: 20px 0;
+    width: 40%;
+}
+tbody td {
+    border-top: 1px solid #dfe2e5;
+}
+.offset-schedule{
+    color: #a9b2b9;
+}
+td h3{
+    color: #648880;
+    font-weight: 400;
+    font-size: 20px;
+}
+td a{
+    text-decoration: none;
+    color: #888;
+}
