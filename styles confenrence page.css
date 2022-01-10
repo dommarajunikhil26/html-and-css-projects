@@ -353,3 +353,57 @@ td a{
     text-decoration: none;
     color: #888;
 }
+
+/* ------------------schedule page ending------------- */
+
+/* ---------------------venue page----------------- */
+
+/* --------------------------------------------------- */
+
+/* ---------------------venue header down part----------------- */
+.venue-header-2{
+    background: linear-gradient(to right, lightgreen, lightyellow);
+    padding: 20px;
+    text-align: center;
+}
+.venue-header-2 h1{
+    margin: 0;
+    color: var(--blue-clr);
+    font-size: 25px;
+}
+.venue-header-2 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-inline-start: 6rem;
+    margin-inline-end: 6rem;
+}
+
+/*----------------------------- venue content ----------------------*/
+.venue-grid-container{
+    display: grid;
+    grid-gap: 30px;
+    padding: 70px 0px;
+}
+.venue-grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 100px;
+    margin: 0px auto;
+}
+.venue-grid-text{
+    color: #888;
+}
+.venue-grid-text h3{
+    color: #648880;
+    font-size: 25px;
+}
+.venue-grid-text a{
+    color: #888;
+    font-size: 18px;
+}
+.venue-grid-text .venue-address{
+    margin-bottom: 25px;
+}
+.venue-grid-text .venue-phn{
+    margin-top: 5px;
+}
