@@ -360,6 +360,8 @@ td a{
 
 /* --------------------------------------------------- */
 
+
+
 /* ---------------------venue header down part----------------- */
 .venue-header-2{
     background: linear-gradient(to right, lightgreen, lightyellow);
@@ -407,3 +409,72 @@ td a{
 .venue-grid-text .venue-phn{
     margin-top: 5px;
 }
+
+/* ------------------venue page ending------------- */
+
+/* ---------------------register page----------------- */
+
+/* --------------------------------------------------- */
+
+.register-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 40px;
+    margin: 70px; 
+    padding: 30px 0px;
+}
+/* -------------------------form--------------------------- */
+.register-container form{
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+}
+form label{
+    margin: 10px 0px;
+    color: #648880;
+    font-size: 20px;
+}
+form label h5{
+    margin: 0;
+}
+form label input{
+    color: #648880;
+    border: 1px solid #888;
+    padding: 4px;
+    border-radius: 4px;
+}
+form textarea{
+    height: 100px;
+    width: 80%;
+    border: 1px solid #888;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+form button{
+    width: 40%;
+    padding: 6px 0px;
+    background-color: #648880;
+    border: 1px solid #648880;
+    border-radius: 3px;
+    color: white;
+}
+/* -------------------------- text ----------------------- */
+.register-text h3{
+    color: #648880;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.register-text h4{
+    color: #648880;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.register-text-description{
+    margin: 0px;
+}
+.register-text p, li{
+    
+    color: #888;
+}
+
+/* ------------------register page ending------------- */
