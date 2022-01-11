@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    color: #fff;
+    line-height: 1.6;
+}
+:root {
+    --primary-color: #b90415;
+    --primary-color-hover: #d3071b;
+    --secondary-color: #103063;
+    --secondary-color-hover: #143f85;
+    --light-color: #f4f4f4;
+}
+
+/*-------------------- header -----------------------*/
+#header{
+    background-image: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+/*--------------------- nav bar --------------------------*/
+nav{
+    display: block;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: #333;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav li a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    color: var(--light-color);
+}
+
+/*--------------------------- styling header text -----------------*/
+.header-text{
+    margin-top: 25vh;
+    text-align: center;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.header-text h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.header-text p{
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    font-size: 18px;
+}
+
+/*------------------------------- music -----------------------------*/
+
+#music{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+#music .music-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#music .music-heading i{
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+    font-size: 30px;
+}
+#music .music-heading h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 20px 0
+}
+#music>h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#music>p{
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    font-size: 20px;
+}
+#music button{
+    background-color: var(--primary-color);
+    padding: 15px 10px;
+    color: var(--light-color);
+    border: 1px solid var(--primary-color);
+    margin: 10px 0;
+}
+#music button:hover{
+    background-color: var(--primary-color-hover);
+    border: 1px solid var(--primary-color-hover);
+}
+#music .music-img-description{
+    font-size: 15px;
+}
+#music .music-img{
+    width: 100%;
+}
+#music .music-img img{
+    width: 90%;
+}
+
+
+/*----------------------- video section ----------------------*/
+#video{
+    background: var(--light-color);
+    color: black;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+#video h2{
+    margin: 20px 0;
+    font-size: 25px;
+}
+#video p{
+    margin: 0 5rem;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+#video a{
+    text-decoration: none;
+    color: var(--light-color);
+    margin: 25px 0;
+    padding: 15px 10px;
+    border: 1px solid var(--secondary-color);
+    background: var(--secondary-color);
+}
+#video .video-img{
+    margin-top: 2rem;
+    width: 100%;
+}
+#video .video-img img{
+    width: 90%;
+}
+
+
+/*----------------------------- entertainment ----------------*/
+#entertainment{
+    text-align: center;
+    background: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 10rem 0;
+}
+#entertainment h3{
+    margin: 0;
+    font-size: 25px;
+}
+#entertainment p{
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    font-size: 18px;
+}
+
+
+
+/*------------------------------ gift card ----------------------------*/
+
+#gift_cards{
+    background: var(--light-color);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.grid .grid-img img{
+    width: 90%;
+}
+.grid-text{
+    color: black;
+    align-items: center;
+    padding-top: 10px;
+}
+.grid-text a{
+    text-decoration: none;
+    color: green;
+}
+
+
+/*------------------------------ footer --------------------------*/
+.footer-part-1{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-content: space-around;
+    grid-gap: 20px;
+    padding: 15px 0;
+}
+.footer-part-1 div{
+    margin: 0 30px;
+}
+.footer-part-1 div h3{
+    border-bottom: 1px solid #888;
+    font-size: 15px;
+}
+.footer-part-1 div ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-part-1 div ul li a{
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer-part-2{
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-part-2 p{
+    margin: 0;
+    font-size: 15px;
+}
+
+
+
+/*------------------------- media queries ---------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 750px){
+    .footer-part-1{
+        display: none;
+    }
+    .header-text p{
+        display: none;
+    }
+}
