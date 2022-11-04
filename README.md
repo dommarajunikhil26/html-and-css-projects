@@ -1,7 +1,6 @@
 # html-and-css-projects
 
 This repository consists of 8 HTML and CSS projects.
-The projects are taken from GFG.
 The projects are :-
 1. A Tribute Page
 2. Webpage Including Form
